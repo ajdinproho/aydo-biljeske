@@ -25,6 +25,7 @@ export default {
   methods: {
     dodaj() {
        this.nizTekst.push(this.noviTekst);
+       this.noviTekst='';
    },
     izbrisi(biljeska) {
       this.nizTekst.splice(this.nizTekst.indexOf(biljeska),1);
